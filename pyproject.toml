@@ -1,0 +1,37 @@
+[project]
+name = "aircraft-predictive-maintenance"
+version = "1.0.0"
+description = "Aircraft Engine Predictive Maintenance - ML Zoomcamp Capstone Project"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scikit-learn>=1.3.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "jupyter>=1.0.0",
+    "xgboost>=2.0.0",
+    "lightgbm>=4.0.0",
+    "optuna>=3.0.0",
+    "joblib>=1.3.0",
+    "scipy>=1.10.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "gradio>=4.0.0",
+    "pydantic>=2.0.0",
+    "huggingface_hub>=0.19.0",
+    "tensorflow>=2.15.0",
+    "keras>=3.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

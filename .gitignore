@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Model files (large files - should not be committed to git)
+# Use model registry (e.g., Hugging Face) or DVC for model versioning
+*.pkl
+model.pkl
+feature_columns.pkl
+sensors_to_exclude.pkl
+scaler.pkl
+model_lstm.keras
+*.keras
+model_results_comprehensive.csv
+
+# Results and outputs
+*.csv
+!requirements.txt
+predictions.txt
+predictions.csv
+evaluation_metrics.csv
+model_results.csv
+feature_importance.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Hugging Face credentials (NEVER commit this!)
+.hf_credentials
+hf_credentials.txt
+*.credentials
